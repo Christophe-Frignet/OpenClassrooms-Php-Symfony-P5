@@ -1,0 +1,17 @@
+#ignore a specific file
+skipped_file.txt
+
+#ignore all file in a specific directory
+skipped_dir/skipped_subdir/
+
+#ignore all files with specific extension
+*.notme
+
+#doing exeption for a specific file
+#ex : ignoring all files with ".notme" extension, except the file "file.notme"
+*.notme
+!file.notme
+# malheureusement, si "fichier.pasmoi" est placé dans le répertoire "sous_rep_ignore" ci-dessus, il sera ignoré
+# unfortunately, if the file "file.notme" is in "skipped_subdir", it will be ignored anyway
+
+/vendor/
