@@ -2,10 +2,11 @@
     "name": "chrisfrignet/openclassrooms-php-symfony-p5",
     "description": "validation project",
     "type": "project",
+    "version": "1.0.0",
     "require": {
         "twig/twig": "3.1.1"
     },
-    "license": "GPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Christophe Frignet",

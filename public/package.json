@@ -1,5 +1,5 @@
 {
-  "name": "openclassrooms-php-symfony-p5",
+  "name": "oc-php-symfony-p5",
   "version": "1.0.0",
   "description": "bachelor validation project #5",
   "main": "index.php",
@@ -17,7 +17,7 @@
     "symfony"
   ],
   "author": "chrisfrignet",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Christophe-Frignet/openclassrooms-php-symfony-p5/issues"
   },
